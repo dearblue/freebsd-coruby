@@ -5,8 +5,8 @@
 ## HOW TO USAGE
 
 ``` shell:shell
-$ git clone --recurse-submodules https://github.com/dearblue/coruby.git
-$ cd coruby
+$ git clone --recurse-submodules https://github.com/dearblue/freebsd-coruby.git
+$ cd freebsd-coruby
 $ make
 $ su -c kldload `pwd`/mod/coruby.ko
 kldload: unexpected relocation type 23
